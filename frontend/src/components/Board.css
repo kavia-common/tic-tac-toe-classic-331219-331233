@@ -1,0 +1,25 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: var(--border-color);
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.board-row {
+  display: flex;
+  gap: 8px;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 480px) {
+  .board {
+    gap: 6px;
+    padding: 6px;
+  }
+
+  .board-row {
+    gap: 6px;
+  }
+}
